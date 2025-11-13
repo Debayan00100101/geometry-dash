@@ -192,7 +192,7 @@ gameLoop();
                 """ , height=600)
 
   st.caption("Geometry Dash Dual Gravity (Hard Mode) by Debayan Das")
-elif:
+elif max:
   components.html("""
   <!DOCTYPE html>
 <html lang="en">
@@ -516,5 +516,6 @@ loop();
 
   """)
   st.caption("bedwars, controls are for pc only... play & have a fun -from debayan")
+
 
 
