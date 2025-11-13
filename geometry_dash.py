@@ -514,8 +514,9 @@ loop();
 </body>
 </html>
 
-  """)
+  """, height=600)
   st.caption("bedwars, controls are for pc only... play & have a fun -from debayan")
+
 
 
 
