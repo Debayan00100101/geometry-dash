@@ -1,6 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
 st.set_page_config("Geometry dash by Debayan Das", page_icon="🏐")
+st.title('Wanna play!')
 dash = st.button('Geometry dash')
 max = st.button("bedwars")
 if dash:
@@ -516,6 +517,7 @@ loop();
 
   """, height=600)
   st.caption("bedwars, controls are for pc only... play & have a fun -from debayan")
+
 
 
 
