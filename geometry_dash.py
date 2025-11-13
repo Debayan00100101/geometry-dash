@@ -1,7 +1,9 @@
 import streamlit as st
 import streamlit.components.v1 as components
 st.set_page_config("Geometry dash by Debayan Das", page_icon="🏐")
-components.html("""
+dash = st.button('Geometry dash')
+if dash:
+  components.html("""
                 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -187,4 +189,8 @@ gameLoop();
 </body>
 </html>
                 """ , height=600)
-st.caption("Geometry Dash Dual Gravity (Hard Mode) by Debayan Das")
+
+  st.caption("Geometry Dash Dual Gravity (Hard Mode) by Debayan Das")
+else:
+  
+
